@@ -1,0 +1,4 @@
+#DATE: 21 January 2020  --2 Question done
+
+1: Dict_query
+2: Compare_random_int

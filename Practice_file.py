@@ -14,3 +14,10 @@ for i in my_list:
         continue
     print(i)
     # orange can be placed anywhere and code it completely ignore it
+
+# using list comprehension multiply each element by 10
+
+my_list = [1, 2, 3, 4, 5]
+
+new_list = [i * 10 for i in my_list]
+print(new_list)

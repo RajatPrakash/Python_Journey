@@ -17,7 +17,12 @@ for i in my_list:
 
 # using list comprehension multiply each element by 10
 
-my_list = [1, 2, 3, 4, 5]
+my_list = [1, 2, 3, 4, 5, 6, 7, 8]
 
 new_list = [i * 10 for i in my_list]
 print(new_list)
+
+# using list comprehension square only even elements
+
+even_list = [i ** 2 for i in my_list if i % 2 == 0]
+print(even_list)

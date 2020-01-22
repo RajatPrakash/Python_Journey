@@ -2,3 +2,14 @@
 
 1: Dict_query
 2: Compare_random_int
+
+
+#DATE: 22 January 2020  --3 Question -- 3 types --Practice file
+
+1: Query3
+2: Query 4
+3: Query4
+4: Enumerate
+5: Multiplicaion Table
+6: List Comprehension
+7: Practice file (solved more than 10 problems regarding the above topics)

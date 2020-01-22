@@ -33,3 +33,10 @@ Temp_c = [25, 30, 40, 50]
 Temp_F = [(9/5 * i + 32) for i in Temp_c]
 print('Temp Converter')
 print(Temp_F)
+
+
+# using list comprehension extract only number from a string
+
+my_string = 'Hi! my name is Rajat Prakash , I am 23 year old and I will become CEO of GOOGLE'
+output = [i for i in my_string if i.isdigit()]
+print(output)

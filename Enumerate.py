@@ -4,3 +4,4 @@ my_list = ['apple', 'mango', 'blueberry', 'Kiwi', 'orange']
 
 for i, fruits in enumerate(my_list):
     print(i, fruits)
+

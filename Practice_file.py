@@ -51,3 +51,12 @@ def mul(value):
 
 
 mul(10)
+
+
+# setting a default value to a function
+
+def age(value=23):
+    print('my age is {}'.format(value))
+
+
+age() # not giving and parameter while calling the function

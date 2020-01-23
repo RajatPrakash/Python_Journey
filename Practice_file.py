@@ -60,3 +60,9 @@ def age(value=23):
 
 
 age() # not giving and parameter while calling the function
+
+# lambda challenge
+# create a lambda function with two parameters and multiply them
+
+result = lambda x, y: x*y
+print(result(3, 6))

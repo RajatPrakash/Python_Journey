@@ -8,3 +8,9 @@ for i in range(0, len):
 
 Temp_F = [(9/5 * i + 32) for i in Temp_C]
 print('Temp in CELSIUS -- {}, \nTemp in FAHRENHEIT {}'.format(Temp_C, Temp_F))
+
+
+# using list comphrehension taking list input from user
+Temp_c = [int(i) for i in input().split()]
+Temp_F = [(9/5 * i + 32) for i in Temp_c]
+print('Temp in CELSIUS -- {}, \nTemp in FAHRENHEIT {}'.format(Temp_c, Temp_F))

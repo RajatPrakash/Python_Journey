@@ -13,3 +13,14 @@
 5: Multiplicaion Table
 6: List Comprehension
 7: Practice file (solved more than 10 problems regarding the above topics)
+
+
+#DATE: 23 January 2020  --12 Question -- 6 types -- Practice file
+
+1: Password_fun
+2: Count_upper_lower
+3: time_sleep
+4: List_input_user
+5: Lambda Expression
+6: Mapping and filter
+7: Practice file (solved more than 7 problems regarding the above topics)

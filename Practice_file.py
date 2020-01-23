@@ -74,3 +74,12 @@ my_list = [1, 2, 3, 6, 9, 8, 7, 4]
 
 new_list = list(map(lambda x: x**2, my_list))
 print(new_list)
+
+# challenge accepted : using lambda and map function multiply two list and add it into a new list
+
+x = [1, 2, 5, 6, 9]
+y = [55, 66, 88, 77, 66, 56]
+
+output = list(map((lambda a, b: a*b), x, y))
+
+print(output)

@@ -24,3 +24,12 @@
 5: Lambda Expression
 6: Mapping and filter
 7: Practice file (solved more than 7 problems regarding the above topics)
+
+
+#DATE: 24 January 2020  --09 Questions
+
+1: funtion - lambda
+2: function with filter
+3: function with map
+4: default value function
+5: Create list using range

@@ -7,3 +7,4 @@ my_list = list(range(1, 10))
 square_list = list(map(lambda x: x ** 2, my_list))
 print(my_list)
 print(square_list)
+

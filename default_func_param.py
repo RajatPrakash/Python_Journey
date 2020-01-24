@@ -8,11 +8,11 @@ def add(x=3, y=5):
 
 try:
 
-    first = int(input('enter first value: '))
-    second = int(input('enter second value: '))
+    first = int(float(input('enter first value: ')))
+    second = int(float(input('enter second value: ')))
+    add(first, second)
 
 except ValueError:
-    first = 3
-    second = 5
+    add()
 
-add(first, second)
+

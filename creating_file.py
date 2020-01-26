@@ -9,4 +9,4 @@ file.write('''This is the text file that has been created by python code
     
                             ''')
 
-
+file.close()  # closing the file is important

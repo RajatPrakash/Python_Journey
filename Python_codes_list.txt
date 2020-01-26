@@ -33,3 +33,12 @@
 3: function with map
 4: default value function
 5: Create list using range
+
+
+#DATE: 26 January 2020  --07 Questions
+
+1: Opening/Reading txt file.
+2: Creating/Writing txt file.
+3: Reading File line by line using loop.
+4: Reading CSV file.
+5: Extracting data from CSV file.

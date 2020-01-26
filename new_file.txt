@@ -1,0 +1,6 @@
+This is the text file that has been created by python code
+
+    CREATE: RAJAT PRAKASH   
+    DATE: 26 JAN 2020
+    
+                            

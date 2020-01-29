@@ -19,3 +19,12 @@ print(a[1])
 print(a[0])
 print(a[0, :])
 print(a[:, 1])  # prints second column
+print('\n')
+
+# get only the even numbers from first row [start_index:end_index:step]
+print('even numbers from first row')
+print(a[0, 1:8:2])
+
+# change certain value of array
+a[1, 2] = 90
+print('new array is ',a)

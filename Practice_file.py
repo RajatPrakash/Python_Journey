@@ -103,6 +103,34 @@ for i in data_list[1:4]:
 for i in gender:
     print(i)
 
+# find a set of numbers from a list that sum up to the user input
+#test case list = [1,2,3,4,5]
+#target = 7
+
+length = int(input("enter the length of the list: "))
+list = []
+target = int(input("enter the target i.e sum of two element: "))
+for i in range(0,length):
+    element = int(input("enter element: "))
+    list.append(element)
+
+i = 0
+j = len(list) - 1 # j = 4
+set_store = {}
+#for k in range(0,length):
+while(True):
+  if i < j:
+    if list[i] + list[j] == target:
+      print(list[i],list[j])
+    i = i+1
+  elif i == length - 1:
+    #print(i)
+    j = j-1
+    i = 0
+    #print(i)
+  elif j == 0:
+    break
+
 
 
 

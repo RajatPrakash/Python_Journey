@@ -22,3 +22,15 @@ print('\n')
 
 # slicing to get top 2 rows and only some columns
 print(multi_dimensional_array[:2, 1:3])
+print('\n')
+
+# challenge: extract the middle value from the 5x5 matrix
+print('Center value of matrix is:')
+print(multi_dimensional_array[2:3, 2:3])
+print('\n')
+
+
+# get the center column from 5X5 matrix
+
+print('center column from  matrix is ')
+print(multi_dimensional_array[:, 2:3])

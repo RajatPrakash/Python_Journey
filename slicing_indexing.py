@@ -14,3 +14,7 @@ print('\n')
 print("Element at 2 row and 3 column is ")
 print(multi_dimensional_array[1][2])
 print('\n')
+
+
+# slicing getting only a part of the code
+print(multi_dimensional_array[:, 1:])

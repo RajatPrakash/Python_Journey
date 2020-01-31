@@ -1,7 +1,7 @@
 # for slicing and indexing
 import numpy as np
 
-multi_dimensional_array = np.random.randint(10, size=(2, 3))
+multi_dimensional_array = np.random.randint(10, size=(5, 5))
 print(multi_dimensional_array)
 print('\n')
 
@@ -16,5 +16,9 @@ print(multi_dimensional_array[1][2])
 print('\n')
 
 
-# slicing getting only a part of the code
-print(multi_dimensional_array[:, 1:])
+# slicing getting only a part of the  code (bottom half of code)
+print(multi_dimensional_array[2:])
+print('\n')
+
+# slicing to get top 2 rows and only some columns
+print(multi_dimensional_array[:2, 1:3])

@@ -13,5 +13,14 @@ def salary(number):
     return number + 1000
 
 
-# applying function on dollar column
+def name_len(name):
+    length = len(name)
+    return length
+
+
+# applying function on salary column
 print(data['salary'].apply(salary))
+print('\n')
+
+# apply function on name column
+print(data['Employee_name'].apply(name_len))

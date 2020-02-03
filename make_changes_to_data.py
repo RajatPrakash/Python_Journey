@@ -8,3 +8,11 @@ print(df.iloc[2])  # title of each column
 df['Total'] = df['HP'] + df['Attack'] + df['Defense'] + df['Sp. Atk'] + df['Sp. Def'] + df['Speed']
 
 print(df[['Name', 'Total']])
+print('\n')
+
+# rearranging the places of columns in data frame
+cols = list(df.columns)
+# print(cols)
+df = df[cols[0:4] + [cols[-1]]+ cols[4:12]]
+print(df.columns)  # just printing the headers
+print(df)

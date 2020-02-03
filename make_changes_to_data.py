@@ -16,3 +16,5 @@ cols = list(df.columns)
 df = df[cols[0:4] + [cols[-1]]+ cols[4:12]]
 print(df.columns)  # just printing the headers
 print(df)
+
+df.to_csv('modified_pokemon_data.csv', index = False)

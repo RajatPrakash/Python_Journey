@@ -12,3 +12,16 @@ plt.subplot(1, 3, 3)
 plt.plot(x**3, 'y--')
 
 plt.show()
+
+
+# changing the axis
+plt.subplot(3, 1, 1)
+plt.plot(x, 'r--')
+
+plt.subplot(3, 1, 2)
+plt.plot(x**2, 'g--')
+
+plt.subplot(3, 1, 3)
+plt.plot(x**3, 'y--')
+
+plt.show()

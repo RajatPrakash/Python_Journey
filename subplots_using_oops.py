@@ -1,7 +1,7 @@
 import matplotlib.pylab as plt
 import numpy as np
 
-fig, axes = plt.subplots(nrows=3, ncols=1)
+fig, axes = plt.subplots(nrows=3, ncols=1, figsize=(10, 10))
 
 axes
 x = [1, 2, 3, 4, 5, 6, 7]
@@ -22,4 +22,5 @@ axes[2].set_xlabel('value of x')
 axes[2].set_ylabel('cube of x')
 axes[2].set_title('Third Graph')
 
+plt.subplots_adjust(wspace=None, hspace=0.5)
 plt.show()

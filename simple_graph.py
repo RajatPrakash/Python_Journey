@@ -4,7 +4,8 @@ import pandas as pd
 x = [1,2,3]
 y = [2,4,6]
 plt.plot(x,y)
-plt.title('FIrst graph')
+# playing with font of title
+plt.title('First graph', fontdict={'fontname':'Comic Sans MS', 'fontsize':20})
 plt.xlabel('X Axis')
 plt.ylabel('y Axis')
 plt.show()

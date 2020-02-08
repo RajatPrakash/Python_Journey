@@ -42,3 +42,16 @@
 3: Reading File line by line using loop.	
 4: Reading CSV file.
 5: Extracting data from CSV file.
+
+
+#DATE: 08 Feburary 2020 (Not able to update this log file daily because of sudden night shift)
+ 
+progress so far
+
+1: Completed working with NUMPY Lib.
+2: Completed working with PANDAS Lib.
+3: Completed Working with MATPLOT Lib.
+4: Completed more than 80 python codes in less than 2 weeks.
+
+
+ 

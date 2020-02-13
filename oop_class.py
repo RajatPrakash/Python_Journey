@@ -9,8 +9,16 @@ class Player:
         print('running')
 
 
-obj = Player('rajat', 23)
-obj2 = Player('Cindy', 25)
-print('Name:', obj.name, 'Age: ', obj.age)
-print('Name:', obj2.name, 'Age: ', obj2.age)
-# obj.property_run()
+# taking user input for dynamic calling of the class
+
+while True:
+    player_name = input('Enter player Name? ')
+    player_age = int(input('Enter player age? '))
+    obj = Player(player_name, player_age)
+    print('Name:', obj.name, 'Age: ', obj.age)
+
+    user_continue = input('Do you want to print more players name? yes or no?')
+    if user_continue == 'no':
+        break
+    else:
+        continue

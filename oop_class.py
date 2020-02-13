@@ -2,6 +2,9 @@
 
 
 class Player:
+    # class object attribute
+    membership = True  # it is static attribute its value will always remains the same
+
     def __init__(self, name, age):  # __init__ is dunder method
         self.name = name  # attriute or property
         self.age = age

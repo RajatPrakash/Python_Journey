@@ -3,6 +3,7 @@
 # Note: If there are multiple students with the same grade, order their names
 # alphabetically and print each name on a new line.
 import numbers
+
 number = int(input('Enter the number of students whose records you want to store:'))
 
 my_list = []
@@ -17,10 +18,18 @@ for i in range(number):
         my_list[i].append(marks)
 
 print(my_list)
-# c = [x for x in my_list if isinstance(x, (int, float))]
-print(filter(lambda x: isinstance(x, (int, float)),my_list))
-# print(c)
 
+test=[]
+for i in my_list:
+    for j in i:
+        if isinstance(j, int):
+            test.append(j)
+            #print(my_list[i][j])
+
+print(test)
+#  c = [y for x,y in my_list if isinstance(x, int)]
+#  c = list(filter(lambda x[1]: isinstance(x[1], int), my_list))
+#print(clear(my_list))
 
 # nested list
 # new_list=[]

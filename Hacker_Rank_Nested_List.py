@@ -17,19 +17,27 @@ for i in range(number):
         my_list[i].append(name)
         my_list[i].append(marks)
 
-print(my_list)
+# print(my_list)
 
-test=[]
-for i in my_list:
-    for j in i:
-        if isinstance(j, int):
-            test.append(j)
-            #print(my_list[i][j])
 
-print(test)
+def getname(lsit):
+    test = []
+    for i in my_list:
+        for j in i:
+            if isinstance(j, int):
+                test.append(j)
+
+    test.sort()
+    second_last = test[-2]
+    for i in my_list:
+        if second_last == i[0] or second_last ==i[1]:
+            print(i[0])
+
+
+getname(my_list)
 #  c = [y for x,y in my_list if isinstance(x, int)]
 #  c = list(filter(lambda x[1]: isinstance(x[1], int), my_list))
-#print(clear(my_list))
+# print(clear(my_list))
 
 # nested list
 # new_list=[]
